@@ -1,0 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/samarkan');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/Safar/Assets/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+#slide-1{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/Safar/Assets/Munnar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+#slide-2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/Safar/Assets/Dubai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+#slide-3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/Safar/Assets/venice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+#icon,#safar{
+    font-family: 'Samarkan', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.navbar-toggler-icon {
+    background-image: url("/Safar/Assets/align-justify.svg");
+}
+html {
+    scroll-behavior: smooth;
+}
