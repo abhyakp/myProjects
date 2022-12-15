@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="main-body">
+    <div class="calc">
+      <div class="output">
+        <input type="text" class="form-control" id="screen">
+      </div>
+      <div class="buttons">
+        <div class="row">
+          <button id="del" onclick="removeLast()">&#9003;</button>
+        </div>
+        <div class="row">
+          <button id="seven" onclick="displayNum(7)">7</button>
+          <button id="eight" onclick="displayNum(8)">8</button>
+          <button id="nine" onclick="displayNum(9)">9</button>
+          <button id="mul" onclick="displayNum('*')" class="opt">&#215;</button>
+        </div>
+        <div class="row">
+          <button id="four" onclick="displayNum(4)">4</button>
+          <button id="five" onclick="displayNum(5)">5</button>
+          <button id="six" onclick="displayNum(6)">6</button>
+          <button id="sub" onclick="displayNum('-')" class="opt">&#8722;</button>
+        </div>
+        <div class="row">
+          <button id="one" onclick="displayNum(1)">1</button>
+          <button id="two" onclick="displayNum(2)">2</button>
+          <button id="three" onclick="displayNum(3)">3</button>
+          <button id="add" onclick="displayNum('+')" class="opt">&#43;</button>
+        </div>
+        <div class="row">
+          <button id="ac" onclick="clearBox()" class="ac">AC</button>
+          <button id="zero" onclick="displayNum(0)">0</button>
+          <button id="div" onclick="displayNum('/')" class="opt">&#247;</button>
+          <button id="equal" onclick="evaluateExpression()" class="opt">&#61;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
